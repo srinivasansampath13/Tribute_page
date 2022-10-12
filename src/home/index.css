@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+@font-face {
+    font-family: OpensansRegular;
+    src: url(../../assets/fonts/OpenSans-Regular.ttf);
+}
+.padding10{
+    padding: 10px;
+}
+.padding-bottom10{
+    padding-bottom: 10px;
+}
+.padding-top10{
+    padding-top: 10px;
+}
+.header-box{
+    padding: 15px;
+}
+.header-text{
+    display: flex;
+    justify-content: center;
+    font-family:OpensansRegular;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+.sub-header{
+    display: flex;
+    justify-content: center;
+    color: red;
+    font-size: 12px;
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+.header-image{
+    display: flex;
+    justify-content: center;
+}
+article{
+    margin-top: 10px;
+    margin-left: 330px;
+    margin-right: 330px;
+    margin-bottom: 10px;
+}
+.movie-names{
+    display: flex;
+    justify-content: space-between;
+}
+.align-center{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+h3{
+    color: #E94560;
+    font-family: 'Times New Roman', Times, serif;
+}
+h5{
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #D49B54;
+}
+img{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+p{
+    font-size: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #FF4C29;
+}
+.thoongavanam{
+    padding-left: 15px;
+}
+.text-justify{
+    text-align: justify;
+}
+table, thead, th, tr{
+    text-align: center;
+    color: #D49B54;
+}
+ol,li{
+  color: #D49B54;
+}
